@@ -49,7 +49,7 @@
         cell = [SketchTypographerPanelSketchPanelCellHeader loadNibNamed:@"SketchTypographerPanelSketchPanelCellHeader"];
         cell.reuseIdentifier = @"header";
     }
-    cell.titleLabel.stringValue = @"SketchTypographerPanel";
+    cell.titleLabel.stringValue = @"Typographer";
     return cell;
 }
 
@@ -65,7 +65,13 @@
     }
 
     id layer = self.selection[index];
-    cell.titleLabel.stringValue = [layer name];
+    double lineHeight = [[layer valueForKey:@"lineHeight"] doubleValue];
+    double fontSize = [[layer valueForKey:@"fontSize"] doubleValue];
+    double relativeLineHeight = lineHeight / fontSize;
+    NSString *relativeLineHeightString = [NSString stringWithFormat:@"%.2f", relativeLineHeight];
+    
+    cell.titleLabel.stringValue = @"Relative Line Height";
+    cell.valueLabel.stringValue = relativeLineHeightString;
     cell.imageView.image = [layer valueForKeyPath:@"previewImages.LayerListPreviewUnfocusedImage"];
 
     return cell;
