@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB601611F5C63C600886231 /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7DB601601F5C63C600886231 /* manifest.json */; };
+		7DB601631F5C63C600886231 /* script.cocoscript in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7DB601621F5C63C600886231 /* script.cocoscript */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DB601591F5C63C600886231 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Sketch;
+			dstSubfolderSpec = 1;
+			files = (
+				7DB601611F5C63C600886231 /* manifest.json in CopyFiles */,
+				7DB601631F5C63C600886231 /* script.cocoscript in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7DB6015D1F5C63C600886231 /* SketchTypographer.sketchplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchTypographer.sketchplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB601601F5C63C600886231 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7DB601621F5C63C600886231 /* script.cocoscript */ = {isa = PBXFileReference; lastKnownFileType = text; path = script.cocoscript; sourceTree = "<group>"; };
+		7DB601641F5C63C600886231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB601581F5C63C600886231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB601521F5C63C600886231 = {
+			isa = PBXGroup;
+			children = (
+				7DB6015F1F5C63C600886231 /* SketchTypographer */,
+				7DB6015E1F5C63C600886231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB6015E1F5C63C600886231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB6015D1F5C63C600886231 /* SketchTypographer.sketchplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB6015F1F5C63C600886231 /* SketchTypographer */ = {
+			isa = PBXGroup;
+			children = (
+				7DB601601F5C63C600886231 /* manifest.json */,
+				7DB601621F5C63C600886231 /* script.cocoscript */,
+				7DB601641F5C63C600886231 /* Info.plist */,
+			);
+			path = SketchTypographer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB6015C1F5C63C600886231 /* SketchTypographer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB601671F5C63C600886231 /* Build configuration list for PBXNativeTarget "SketchTypographer" */;
+			buildPhases = (
+				7DB601571F5C63C600886231 /* Sources */,
+				7DB601581F5C63C600886231 /* Frameworks */,
+				7DB601591F5C63C600886231 /* CopyFiles */,
+				7DB6015A1F5C63C600886231 /* ShellScript */,
+				7DB6015B1F5C63C600886231 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchTypographer;
+			productName = SketchTypographer;
+			productReference = 7DB6015D1F5C63C600886231 /* SketchTypographer.sketchplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB601531F5C63C600886231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Morten Christoffersen";
+				TargetAttributes = {
+					7DB6015C1F5C63C600886231 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DB601561F5C63C600886231 /* Build configuration list for PBXProject "SketchTypographer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB601521F5C63C600886231;
+			productRefGroup = 7DB6015E1F5C63C600886231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB6015C1F5C63C600886231 /* SketchTypographer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DB6015A1F5C63C600886231 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Installing ${WRAPPER_NAME} to ~/Library/Application\\ Support/com.bohemiancoding.sketch3/Plugins/\"\ncp -rf ${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME} ~/Library/Application\\ Support/com.bohemiancoding.sketch3/Plugins/\necho \"... Finished!\"";
+		};
+		7DB6015B1F5C63C600886231 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "f1=\"manifest.json\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"CONTENTS_FOLDER_PATH = $CONTENTS_FOLDER_PATH\"\necho \"PLUGIN_VERSION = $PLUGIN_VERSION\"\necho \"PLUGIN_BUILD = $PLUGIN_BUILD\"\necho \"PLUGIN_IDENTIFIER = $PLUGIN_IDENTIFIER\"\nf2=\"$CONFIGURATION_BUILD_DIR/$CONTENTS_FOLDER_PATH/Sketch/$f1\"\nif [ -f $f2 ]; then\nsed -i \"\" -e \"s/PLUGIN_VERSION/$PLUGIN_VERSION/g\" \"$f2\"\nsed -i \"\" -e \"s/PLUGIN_BUILD/$PLUGIN_BUILD/g\" \"$f2\"\nsed -i \"\" -e \"s/PLUGIN_IDENTIFIER/$PLUGIN_IDENTIFIER/g\" \"$f2\"\n#atom \"$f2\"\nelse\necho \"File not found: $f2\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB601571F5C63C600886231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DB601651F5C63C600886231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7DB601661F5C63C600886231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7DB601681F5C63C600886231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SketchTypographer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PLUGIN_BUILD = 1;
+				PLUGIN_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
+				PLUGIN_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mortenchristoffersen.SketchTypographer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = sketchplugin;
+			};
+			name = Debug;
+		};
+		7DB601691F5C63C600886231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SketchTypographer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PLUGIN_BUILD = 1;
+				PLUGIN_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
+				PLUGIN_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mortenchristoffersen.SketchTypographer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = sketchplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB601561F5C63C600886231 /* Build configuration list for PBXProject "SketchTypographer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB601651F5C63C600886231 /* Debug */,
+				7DB601661F5C63C600886231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB601671F5C63C600886231 /* Build configuration list for PBXNativeTarget "SketchTypographer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB601681F5C63C600886231 /* Debug */,
+				7DB601691F5C63C600886231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB601531F5C63C600886231 /* Project object */;
+}
